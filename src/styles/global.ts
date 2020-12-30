@@ -20,4 +20,8 @@ export default createGlobalStyle`
       color:${props => props.theme.colors.text};
       font: 400 18px Poppins, sans-serif;
     }
+/*
+    p {
+      font: 400 14px Poppins, sans-serif;
+    } */
 `

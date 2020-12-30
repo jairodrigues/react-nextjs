@@ -126,26 +126,38 @@ export const SecondSection = styled.section`
   display: flex;
   flex-direction: column;
   margin-top: 50px;
-  width: 100vw;
+  width: 100%;
 
-  span {
-    text-align: center;
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .bg {
+    z-index: -1;
+    position: absolute;
     width: 100%;
-    margin-bottom: 100px;
+    overflow: hidden;
+    size: 100px;
   }
 
   .text-title {
     font-size: 44px;
     line-height: 54px;
-    margin-bottom: 30px;
     text-align: center;
     justify-content: center;
-    width: 100%;
-    background: linear-gradient(
-      179.59deg,
-      rgba(255, 229, 210, 0.629261) 0.35%,
-      rgba(255, 244, 229, 0.0001) 99.63%
-    );
-    transform: rotate(180deg);
+  }
+
+  .features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .features-resume {
+    margin-right: 50px;
+    margin-top: 50px;
   }
 `
